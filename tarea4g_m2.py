@@ -18,7 +18,7 @@ for n in range(1,15):
 print(lista)
 input()
 
-lista = []
+'''lista = []
 lista2 = []
 
 for x in range(3, 26):
@@ -39,3 +39,4 @@ for numero2 in lista2:
 
 print()
 print(lista)
+'''
