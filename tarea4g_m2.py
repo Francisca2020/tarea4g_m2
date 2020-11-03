@@ -1,24 +1,18 @@
+lista = []
+contador = 0
+
+while contador <= 14:
+    numero = int(input("Ingrese un número: "))
+    if numero in lista:
+        print("Error, vuelva a ingresar un nuevo número")
+    else:
+        lista.append(numero)
+        contador += 1
+print(lista)
+
+
 
 lista = []
-numero = int(input('Ingrese numero 1: '))
-lista.append(numero)
-
-for n in range(1,15):
-	numero2 = int(input('ingresa otro numero: '))
-	lista.append(numero2)
-
-	if lista[n] != lista[n-1]:
-		continue
-    
-    # falta solicitar otro numero en caso de error
-	if lista[n] == lista[n-1]:
-		print('error')
-		break
-
-print(lista)
-input()
-
-'''lista = []
 lista2 = []
 
 for x in range(3, 26):
@@ -39,5 +33,8 @@ for numero2 in lista2:
 
 print()
 print(lista)
+<<<<<<< HEAD
 '''
 
+=======
+>>>>>>> 1aecfe876ec42288f26e9914d94b14dbb9acd422
